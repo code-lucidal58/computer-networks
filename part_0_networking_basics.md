@@ -23,7 +23,12 @@ storm*, can bring down the entire network. This is the idea behind many of their
 **denial-of-service** attack heard in network security.
 
 This topology is recommended for 30 or less nodes. This is the least expensive topology.
-It is not a part of current TIA/EIA 568-C standard for LAN networks. Terminator is required
-on either sides of the Bus
+It is not a part of current TIA/EIA 568-C standard for LAN networks.  or terminating
+resistor is required on either sides of the cable.
 
 #### Ring
+Similar to bus topology. The backbone is a ring.Packets are available to move around in a
+ring pattern. As packet moves through the ring, it stops at each node and gives it an
+opportunity to send a signal. Hence there is no contention. During heavy traffic, the network
+slows down but does not break. A single damaged node can bring down the entire network.
+This is not a part of the current TIA/EIA 568-C standard for LAN networks. 
